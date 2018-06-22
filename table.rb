@@ -32,7 +32,7 @@ class Some_assembly_required
   puts "What language do you speak? #{karina.what_language}"
   puts "How tall are you? #{karina.what_height}"
   puts "How old is your sibling #{karina.age_of_sibling}"
-  puts "Give me some basic facts #{karina.basic_facts}"
+  puts "#{karina.basic_facts} basic facts"
   
   # anna = Some_assembly_required.new("russian", "5ft 3 in", "23 years old")
   # puts "What language do you speak? #{anna.what_language}"
