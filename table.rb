@@ -34,6 +34,24 @@ class Some_assembly_required
   puts "How old is your sibling #{karina.age_of_sibling}"
   puts "Give me some basic facts #{karina.basic_facts}"
   
+  anna = Some_assembly_required.new("russian", "5ft 3 in", "23 years old")
+  puts "What language do you speak? #{anna.what_language}"
+  puts "How tall are you? #{anna.what_height}"
+  puts "How old is your sibling #{anna.age_of_sibling}"
+  
+  amy = Some_assembly_required.new("chinese", "5ft 4in", "30")
+  puts "What language do you speak? #{amy.what_language}"
+  puts "How tall are you? #{amy.what_height}"
+  puts "How old is your sibling #{amy.age_of_sibling}"
+  
+  brynne = Some_assembly_required.new("spanish", "5ft 2in", "20 years old")
+  puts "What language do you speak? #{brynne.what_language}"
+  puts "How tall are you? #{brynne.what_height}"
+  puts "How old is your sibling #{brynne.age_of_sibling}"
+  
+  
+  
+  
   
   
   
