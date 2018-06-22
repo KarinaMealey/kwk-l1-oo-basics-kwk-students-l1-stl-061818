@@ -6,7 +6,7 @@ class Cats
     @mean = mean
   end 
   
-  def  is_it_cute? 
+  def  is_it_cute
     @cute 
   end 
   
