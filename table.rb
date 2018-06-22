@@ -8,10 +8,10 @@ class Some_assembly_required
     
  
   def basic_facts 
-    puts "have brown hair"
-    puts "in high school"
-    puts "like bok choy"
-    puts "like bananas"
+    puts "We all have brown hair"
+    puts "We're all in high school"
+    puts "We al love bok choy"
+    puts "We all like bananas"
   end 
   
   def what_language
@@ -33,8 +33,7 @@ class Some_assembly_required
   puts "What language do you speak? #{karina.what_language}"
   puts "How tall are you? #{karina.what_height}"
   puts "How old is your sibling #{karina.age_of_sibling}"
-  puts "Heres some basic facts #{karina.basic_facts}"
-  
+ 
   anna = Some_assembly_required.new("russian", "5ft 3 in", "23 years old")
   puts "What language do you speak? #{anna.what_language}"
   puts "How tall are you? #{anna.what_height}"
