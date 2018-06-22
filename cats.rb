@@ -14,6 +14,10 @@ class Cats
     @mean
   end
   
+  def is_it_fuzzy
+    @fuzzy
+  end 
+  
 end 
 
 tiger = Cats.new("very","pretty", "super")
@@ -22,3 +26,4 @@ tiger = Cats.new("very","pretty", "super")
 garfield = Cats.new("no, he has an attitude", "up to debate", "yes")
 # puts "Is Garfield cute? #{garfield.is_it_cute}"
 puts "Is Garfield mean? #{garfield.is_it_mean}"
+puts "Is Garfield mean? #{garfield.is_it_fuzzy}"
