@@ -29,6 +29,7 @@ class Some_assembly_required
   
   
   karina = Some_assembly_required.new("english", "5ft 6in", "12 years old")
+  puts "Heres some basic facts #{karina.basic_facts}"
   puts "What language do you speak? #{karina.what_language}"
   puts "How tall are you? #{karina.what_height}"
   puts "How old is your sibling #{karina.age_of_sibling}"
